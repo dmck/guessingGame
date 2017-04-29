@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Guess a random number!</title>
+	</head>
+	<body>
+		<!--
+			https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/HTML5_updates 
+			https://www.w3schools.com/jsref/event_onsubmit.asp
+			-->
+		<form onsubmit="return evaluateGuess()">
+			Guess: <input type="text" id="guess"> <input type="submit">
+		</form>
+		<h1 id="numberToGuess">Correct Number: ##</h1>
+		<div id="results"></div> 
+		<script src="guessingGame.js"></script>
+	</body>
+</html>
